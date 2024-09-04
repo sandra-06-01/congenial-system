@@ -1,0 +1,233 @@
+/* Styles de base */
+body {
+    background-image: url('img/homme-femme-prenant-soin-leur-petite-fille_23-2149022883.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-image: url('img/homme-femme-prenant-soin-leur-petite-fille_23-2149022883.avif'); /* Image de fond pour le navbar */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+  }
+/* Style général du Navbar */
+.navbar {
+    background-color: #f8f9fa; /* Couleur de fond légère */
+    padding: 15px; /* Espacement autour des éléments */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+  }
+  
+  .navbar a {
+    color: white; /* Couleur du texte des liens */
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    color: #007bff; /* Couleur de survol */
+    transition: color 0.3s ease; /* Transition douce */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff; /* Couleur du logo ou du titre */
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: space-between; /* Espacement entre les éléments */
+    align-items: center;
+  }
+  
+  .navbar-nav a {
+    padding: 0 20px;
+  }
+  
+  .navbar .active {
+    border-bottom: 2px solid #007bff; /* Soulignement de l'élément actif */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+      text-align: center;
+    }
+    .navbar-brand {
+        margin-left: 0;
+    }
+    .navbar a {
+      padding: 10px 0;
+    }
+  }
+  
+
+/* Bannière Principale */
+.banner {
+    position: relative;
+    background: url('img/homme-femme-prenant-soin-leur-petite-fille_23-2149022883.avif') no-repeat center center;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-content {
+    max-width: 300px;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.banner p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.banner .btn {
+    font-size: 1.25rem;
+    padding: 10px 20px;
+}
+
+/* Présentation des Valeurs de la Boutique */
+.values {
+    background: url('img/homme-femme-prenant-soin-leur-petite-fille_23-2149022883.avif') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+
+.values i {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.values h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.values p {
+    font-size: 1rem;
+}
+
+/* Produits Phare ou Nouveautés */
+.products .card {
+    border: none;
+    border-radius: 10px;
+}
+
+.products .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.products .card-body {
+    text-align: center;
+}
+
+.products .btn {
+    margin-top: 10px;
+}
+
+/* Avis Clients */
+.testimonials {
+    background: url('img/homme-femme-prenant-soin-leur-petite-fille_23-2149022883.avif') no-repeat center center; 
+    background-size: cover;
+}
+
+.testimonials .testimonial {
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.testimonials p {
+    font-style: italic;
+}
+
+/* Offres Spéciales ou Promotions */
+.offers .offer-banner {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.offers .offer-banner h3 {
+    font-size: 2rem;
+}
+
+.offers .btn {
+    margin-top: 10px;
+}
+
+.newsletter .form-control {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Réseaux Sociaux */
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.social-links a {
+    margin: 0 10px;
+    color: #007bff; /* Bleu par défaut */
+    font-size: 2rem; /* Taille des icônes */
+}
+.social-links a:hover {
+    color: #0056b3; /* Couleur au survol */
+}
+
+/* Informations de Contact Rapides */
+#contact {
+    
+    padding: 60px 0;
+  }
+  
+  #contact h2 {
+    margin-bottom: 30px;
+  }
+  
+  #contact .form-control {
+    margin-bottom: 20px;
+  }
+  
+  #contact .btn {
+    background-color: #007bff;
+    
+  }
+  
+
+/* Footer */
+.footer.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer.footer a {
+    color: #ffffff;
+    margin: 0 10px;
+}
+
+.footer.footer a:hover {
+    text-decoration: underline;
+}
